@@ -89,7 +89,9 @@ export function CreateProductPage() {
             step="0.01"
             placeholder="0.00"
             error={errors.price?.message}
-            {...register("price")}
+            {...register("price", {
+              valueAsNumber: true,
+            })}
           />
 
           <Select
