@@ -1,0 +1,10 @@
+# Allow all crawlers to index the site
+User-agent: *
+Allow: /
+
+# Sitemap URL (optional, remove if you don't have one)
+# Sitemap: https://yourdomain.com/sitemap.xml
+
+# Example: Block sensitive or non-public paths (optional)
+# Disallow: /login/
+# Disallow: /admin/
